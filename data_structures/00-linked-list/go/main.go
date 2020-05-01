@@ -2,10 +2,6 @@ package main
 
 import "fmt"
 
-func main() {
-	fmt.Print("Hello There!")
-}
-
 type node struct {
 	value int
 	next  *node
